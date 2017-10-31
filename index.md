@@ -5,6 +5,7 @@ title: Overview
 
 
 
+
 S²E is a platform for writing tools that analyze the properties and
 behavior of software systems. S²E is a virtual machine augmented
 with symbolic execution and modular path analyzers. S²E runs
@@ -38,57 +39,6 @@ software routers, testing embedded systems, and more.
 <hr/>
 
 
-<table style="border-collapse:separate; border-spacing: 0.7em 0.7em;border:0px;;">
-
-    <tr>
-      <td rowspan="2"><img src="/images/vm.png" height="64"/></td>
-      <td width="50%">
-        <span style="font-size:large;font-weight:bold;">
-          <a href="https://s3.amazonaws.com/s2e-demo-vm/s2e-demo-vmware.tar.bz2" class="external">
-          S²E in a Box
-          </a>
-        </span>
-      </td>
-      <td rowspan="2"><img src="/images/dl.png" height="64"/></td>
-      <td width="50%">
-        <span style="font-size:large;font-weight:bold;">
-          <a href="https://github.com/dslab-epfl/s2e/archive/stable-1.3.zip" class="external">
-            Source Code
-          </a>
-        </span>
-      </td>
-      <!--
-      <td rowspan="2"><img src="/images/ddt.png" height="64"/></td>
-      <td width="30%">
-        <span style="font-size:large;font-weight:bold;">
-          <a href="http://codetickler.org" class="external" target="_blank">
-            S²E in the Cloud
-          </a>
-        </span>
-      </td>
-      -->
-    </tr>
-
-    <tr>
-      <td style="vertical-align: top;">
-        Hands-on experience of multi-path software analysis in a preconfigured environment.<br />
-        <span style="font-size:x-small;">
-          Requires <a href="http://www.vmware.com/products/player/" class="external">VMware Player</a>
-        </span>
-      </td>
-      <td style="vertical-align: top;">
-        Including build instructions, documentation, tutorials, and more.
-      </td>
-      <!--
-      <td style="vertical-align: top;">
-        Test Windows device drivers with CodeTickler.
-      </td>
-      -->
-    </tr>
-</table>
-
-
-<hr/>
 
 S²E's novelty consists of its ability to scale to large real
 systems, such as a full Windows stack. S²E is based on two new ideas:
@@ -115,7 +65,3 @@ S²E helps make analyses based on symbolic execution practical for
 large software that runs in real environments, without requiring
 explicit modeling of these environments.
 
-
-<hr/>
-
-<b>We are hiring! Open positions are [available](positions).</b>
